@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar DevOps - Platform Pembelajaran DevOps Terlengkap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Belajar DevOps</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#courses">Kursus</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Mulai Perjalanan DevOps Anda Hari Ini</h1>
+                <p>Pelajari tools dan praktik terbaik DevOps untuk mempercepat pengembangan software dan meningkatkan kolaborasi tim.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn-primary">Lihat Kursus</a>
+                    <a href="#about" class="btn-secondary">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <pre><code># Contoh Pipeline DevOps
+pipeline:
+  stages:
+    - build
+    - test
+    - deploy
+                    
+docker build -t myapp .
+docker-compose up -d
+kubectl apply -f deployment.yaml</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Apa itu DevOps?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>DevOps adalah kombinasi dari pengembangan perangkat lunak (Development) dan operasi TI (Operations). Ini adalah budaya, gerakan, atau praktik yang menekankan kolaborasi dan komunikasi antara pengembang perangkat lunak dan profesional TI lainnya.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <h3>Continuous Integration</h3>
+                            <p>Integrasi kode secara berkala ke dalam repositori bersama</p>
+                        </div>
+                        <div class="feature">
+                            <h3>Continuous Deployment</h3>
+                            <p>Otomatisasi proses deployment ke lingkungan production</p>
+                        </div>
+                        <div class="feature">
+                            <h3>Infrastructure as Code</h3>
+                            <p>Mengelola infrastruktur melalui kode bukan proses manual</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Kursus DevOps Kami</h2>
+            <div class="course-cards">
+                <div class="course-card">
+                    <h3>Docker untuk Pemula</h3>
+                    <p>Pelajari containerization dengan Docker dari dasar</p>
+                    <ul>
+                        <li>Docker Images & Containers</li>
+                        <li>Docker Compose</li>
+                        <li>Docker Networking</li>
+                    </ul>
+                    <button class="btn-course">Mulai Belajar</button>
+                </div>
+                <div class="course-card">
+                    <h3>Kubernetes Fundamentals</h3>
+                    <p>Kelola container dengan Kubernetes</p>
+                    <ul>
+                        <li>Pods & Services</li>
+                        <li>Deployments</li>
+                        <li>Scaling Applications</li>
+                    </ul>
+                    <button class="btn-course">Mulai Belajar</button>
+                </div>
+                <div class="course-card">
+                    <h3>CI/CD dengan Jenkins</h3>
+                    <p>Bangun pipeline CI/CD yang robust</p>
+                    <ul>
+                        <li>Jenkins Pipeline</li>
+                        <li>Integration dengan Git</li>
+                        <li>Automated Testing</li>
+                    </ul>
+                    <button class="btn-course">Mulai Belajar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p>Email: info@belajardevops.com</p>
+                    <p>Telepon: (021) 1234-5678</p>
+                    <p>Alamat: Jl. Teknologi No. 123, Jakarta</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Nama Anda" required>
+                        <input type="email" placeholder="Email Anda" required>
+                        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Belajar DevOps. Semua hak dilindungi.</p>
+            <p>Project sederhana untuk pembelajaran DevOps dengan Node.js</p>
+	    <p>by umarfd</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
