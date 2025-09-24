@@ -22,3 +22,6 @@ Project sederhana landing page untuk platform pembelajaran DevOps menggunakan No
 2. Install dependencies:
    ```bash
    npm install
+3. run on dev:
+   ```bash
+   npm start
